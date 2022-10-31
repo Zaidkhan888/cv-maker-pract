@@ -2,7 +2,9 @@
   "name": "cv-maker",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
+    "@date-io/date-fns": "^2.16.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,15 +12,21 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.18.2",
     "express-validator": "^6.14.2",
+    "formik": "^2.2.9",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
     "jsonwebtoken": "^8.5.1",
     "mogoose": "^0.0.1-security",
     "mongoose": "^6.7.0",
     "nodemon": "^2.0.20",
+    "npm": "^8.19.2",
+    "pdfmake": "^0.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
